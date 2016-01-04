@@ -1,0 +1,35 @@
+{
+  "name": "gunzipMulti",
+  "version": "1.0.0",
+  "description": "Allow proper decompression of concatenated gzip files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/gunzipMulti"
+  },
+  "keywords": [
+    "gzip",
+    "gunzip",
+    "stream",
+    "streaming",
+    "streams",
+    "compress",
+    "decompress"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/gunzipMulti/issues"
+  },
+  "dependencies": {
+    "stream-combiner": "^0.2.2"
+  },
+  "devDependencies": {
+    "split2": "^1.1.0",
+    "tape": "^4.4.0",
+    "through2": "^2.0.0"
+  }
+}
