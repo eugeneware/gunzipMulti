@@ -1,4 +1,4 @@
-# gunzipMulti
+# gunzip-multi
 
 Allow proper decompression of concatenated gzip files
 
@@ -31,13 +31,13 @@ at doing the decompression!
 This module is installed via npm:
 
 ``` bash
-$ npm install gunzipMulti
+$ npm install gunzip-multi
 ```
 
 ## Example Usage
 
 ``` js
-var gunzipMulti = require('gunzipMulti'),
+var gunzipMulti = require('gunzip-multi'),
     fs = require('fs');
 
 fs.createReadStream(fixture('concat.txt.gz'))
